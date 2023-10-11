@@ -1,0 +1,14 @@
+body {
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--white);
+    background-color: var(--background-color-dark);
+  }
+.images {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
