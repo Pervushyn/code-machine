@@ -4,6 +4,7 @@ body {
     font-style: normal;
     font-weight: 400;
     color: var(--white);
+    background-color: var(--background-color-black);
   }
 .images {
     display: block;
