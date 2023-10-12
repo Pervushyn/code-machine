@@ -12,14 +12,17 @@ body {
   max-width: 100%;
   height: auto;
 }
+
 .section {
   padding: 40px 0;
 }
+
 .container {
   min-width: 320px;
   width: 375px;
   padding: 0 20px 0 20px;
 }
+
 span {
   color: var(--brown);
 }
@@ -33,6 +36,7 @@ span {
     padding: 0 32px 0 32px;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .section {
     padding: 75px 0;
