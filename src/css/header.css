@@ -302,3 +302,20 @@
   align-self: center;
   text-align: center;
 }
+
+.icon-photo {
+  fill: #BEA69E66;
+}
+
+.icon-photo:hover {
+  fill: #BEA69E;
+}
+
+.icon-photo:focus {
+  fill: #BEA69E;
+}
+
+.icon-photo:active {
+  fill: #BEA69E;
+}
+
