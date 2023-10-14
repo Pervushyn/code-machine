@@ -1,0 +1,148 @@
+.hero-section {
+width: 335px;
+height: 777px;
+border-radius: 30px;
+background-color: #1D1D1D;
+/*padding: 20px 20px 80px 20px;*/
+}
+
+.hero-inner {
+  padding: 40px 20px 0 20px;
+}
+
+.hero-info {
+  display: flex;
+}
+.hero-title { 
+    width: 295px;
+    color: #FFF;
+font-family: DM Sans;
+font-size: 40px;
+font-weight: 500;
+line-height: 1.1;
+letter-spacing: 0.04em;
+text-decoration: none;
+margin-bottom: 20px;
+justify-content: flex-start;
+flex-direction: row;
+}
+
+.text-s {
+font-style: italic;
+}
+.hero-paragraf {
+  display: flex;
+}
+.hero-text {
+ width: 295px;
+color: #FFF;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-decoration: none;
+text-align: start;
+}
+
+.users-block {
+display: inline-flex;
+width: 253px;
+justify-content: space-between;
+align-items: flex-start;
+margin-bottom: 31px;
+margin-top: 40px;
+}
+
+.users-list {
+display: flex;
+flex-direction: column;
+column-gap: 4px;
+flex-wrap: wrap;
+}
+
+.students {
+  color: #FFF;
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.2;
+letter-spacing: 0.04em;
+}
+
+.icons {
+position: relative;
+}
+
+.star-i {
+  width: 44px;
+  height: 44px;
+}
+.icon-star {
+  border-radius: 100px;
+  background: #BEA69E;
+}
+.hero-img {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+    width: 259px;
+    height: 100%;
+}
+
+ @media screen and (min-width: 320px) {
+  .container {
+    /*min-width: 320px;*/
+    width: 375px;
+    padding: 0 20px 0 20px;
+  }
+ } 
+@media screen and (min-width: 768px) {
+    .hero-section {
+       width: 704px;
+       height: 900px;
+       } 
+
+       .hero-inner {
+        /*padding: 64px 155px 0 32px;*/
+      }
+
+      .hero-title {
+    width: 517px;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 1.06;
+    letter-spacing: 0.04em;
+      }
+
+      .text-s {
+        width: 517px;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 1.06;
+    letter-spacing: 0.04em;
+      }
+      .hero-text {
+        width: 418px;
+      }
+   
+   }
+
+  @media screen and (min-width: 1280px) {
+    .hero-section {
+      width: 1080px;
+      height: 600px;
+      border-radius: 30px;
+      background-color: #1D1D1D;
+      /*padding: 20px 20px 80px 20px;*/
+      }
+    
+    .hero-title {
+      width: 563px;
+font-size: 64px;
+font-weight: 500;
+line-height: 1.06;
+letter-spacing: 0.04em;
+    }
+    
+  }

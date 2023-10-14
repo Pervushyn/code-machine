@@ -1,104 +1,78 @@
-<section class="hero-section container">
-  <div class="hero">
-    <h1 class="hero-title">
-      Discover the magic of <span>photography</span> in our school
-    </h1>
-    <p class="hero-text">
-      Our photography school offers an unforgettable journey, where you can
-      learn the basics of composition, master technical skills, translate your
-      unique ideas.
-    </p>
+<section class="hero-section container ">
+  <div class="hero-inner">
+    <!--<div class="hero-info">
+      <h1 class="hero-title">
+        Discover the magic of <span class="text-s">photography</span> in our school
+      </h1>
+    </div>-->
+    <!--<div class="hero-paragraf">
+      <p class="hero-text">
+        Our photography school offers an unforgettable journey, where you can learn the basics of composition, master technical skills, translate your unique ideas.
+      </p>
+    </div>-->
     <div class="users-block">
-      <ul class="users-list">
-        <li class="users-item">
-          <div class="users">
-            <img
-              class="users-img"
-              srcset="
-                .src/images/mob/hero/girl1-mob.jpg    1x,
-                .src/images/mob/hero/girl1-mob@2x.jpg 2x
-              "
-              src="./images/mob/hero/girl1-mob.jpg"
-              alt="girl"
-              width="44"
-            />
-          </div>
-        </li>
-        <li class="users-item">
-          <div class="users">
-            <img
-              class="users-img"
-              srcset="
-                .src/images/mob/hero/boymob.jpg    1x,
-                .src/images/mob/hero/boymob@2x.jpg 2x
-              "
-              src="../images/mob/hero/boymob.jpg"
-              alt="girl"
-              width="44"
-            />
-          </div>
-        </li>
-        <li class="users-item">
-          <div class="users">
-            <img
-              class="users-img"
-              srcset="
-                .src/images/mob/hero/girlmob.jpg      1x,
-                .src/images/mob/hero/girl1-mob@2x.jpg 2x
-              "
-              src="../images/mob/hero/girlmob.jpg"
-              alt="girl"
-              width="44"
-            />
-          </div>
-        </li>
-      </ul>
-      <div class="users-reviews">
-        <a id="#" class="students" href="#"
-          >Our happy students
-          <svg class="icons" width="18" height="8.66">
-            <use href="../images/icons.svg#icon-Arrow-2-Stroke"></use>
-          </svg>
-        </a>
+      <div class="users-info">
+        <ul class="users-list">
+          <li class="users-item">
+            <img srcset="./images/mob/hero/mob-block.png 1x,  ./images/mob/hero/mob-block@2x.png 2x"
+            src="../images/mob/hero/mob-block.png" width="109px" height="44px" alt="users" />
+          </li>
+          <li class="users-item">
+            <a id="#" class="students" href="#"
+            >Our happy students
+            <svg class="icons" width="18" height="8.66">
+              <use href="./images/icons.svg#icon-Arrow-2-Stroke"></use>
+            </svg>
+            </a>   
+          </li>
+        </ul>
       </div>
-      <div class="reviews">
-        <svg class="icon-star" width="20" height="20">
-          <use href="../images/icons.svg#icon-star"></use>
-        </svg>
-        <p class="revievs-text">Reviews</p>
-        <p class="revievs-value">+1500</p>
+      <div class="users-reviews">
+        <ul class="review-list">
+          <li class="users-item star-i">
+            <svg class="icon-star" width="20" height="20">
+              <use href="./images/icons.svg#icon-star-1"></use>
+            </svg>
+          </li>
+          <li class="users-item">
+            <p class="revievs-text">Reviews</p>
+            <p class="revievs-value">+1500</p>
+          </li>
+        </ul>
+        
       </div>
     </div>
+    
     <div class="hero-img">
       <picture>
         <source
           media="(min-width: 1280px)"
           srcset="
-            ./src/images/descktop/hero/Rectangle-5.jpg    1x,
-            ./src/images/descktop/hero/Rectangle-5@2x.jpg 2x
+            .src/images/descktop/hero/Rectangle-5.png 1x,
+            .src/images/descktop/hero/Rectangle-5@2x.png 2x
           "
         />
         <source
           media="(min-width: 768px)"
           srcset="
-            ./src/images/tab/hero/Rectangle5-tab.jpg    1x,
-            ./src/images/tab/hero/Rectangle5-tab@2x.jpg 2x
+            .src/images/tab/hero/Rectangle13.png 1x,
+            .src/images/tab/hero/Rectangle13@2x.png 2x
           "
         />
         <source
           media="(min-width: 375px)"
           srcset="
-            ./src/images/mob/hero/Rectangle5-mob.jpg    1x,
-            ./src/images/mob/hero/Rectangle5-mob@2x.jpg 2x
+            .src/images/mob/hero/Rectangle14.png 1x,
+            src/images/mob/hero/Rectangle14@2x.png 2x
           "
         />
-        <img
-          src="../images/mob/hero/Rectangle5-mob.jpg"
+      </picture>
+      <img
+          src="./images/mob/hero/Rectangle5-mob.png"
           width="259"
           height="314"
           alt="Photography"
         />
-      </picture>
-    </div>
+   </div>
   </div>
 </section>
