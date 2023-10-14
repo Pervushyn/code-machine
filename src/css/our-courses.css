@@ -132,12 +132,13 @@ li::before {
         padding: 32px;
     }
     .our-courses-number-block {
-    margin-bottom: 46px;
-}
+        margin-bottom: 46px;
+    }
     .our-courses-link {
-    top: 32px;
-    right: 32px;
-}
+        top: 32px;
+        right: 32px;
+        margin-bottom: 32px;
+    }
     .our-courses-subtitle {
         font-size: 28px;
         font-weight: 500;
@@ -161,7 +162,7 @@ li::before {
     .our-courses-list .our-courses-card {
         width: calc((100% - 40px) / 3);
     }
-        .our-courses-descr {
-            width: 283px;
-        }
+    .our-courses-descr {
+        width: 283px;
+    }
 }
