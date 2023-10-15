@@ -35,14 +35,14 @@
     background: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
 }
 
-ol {
+.our-courses-list {
     margin: 0;
     padding: 0;
     list-style-type: none;
     counter-reset: my-counter;
 }    
 
-li::before {
+.our-courses-card::before {
     content: "0" counter(my-counter);
     counter-increment: my-counter;
     color: rgba(255, 255, 255, 0.40);
