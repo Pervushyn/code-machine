@@ -1,5 +1,6 @@
 .header {
   padding: 20px 0;
+  font-family: 'DM Sans';
 }
 
 .nav-list {
@@ -92,7 +93,13 @@
   justify-content: start;
   flex: 1 1 auto;
   align-items: center;
-  padding: 17px 0;
+  padding: 15px 0;
+}
+
+@media screen and (min-width: 767.98px) {
+  .header__logo {
+    padding: 22px 0;
+  }
 }
 
 .menu-header__items {
