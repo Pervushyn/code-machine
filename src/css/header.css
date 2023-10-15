@@ -25,7 +25,7 @@
 
 /* Phone screen */
 .container-header {
-	min-width: 320px;
+	min-width: 375px;
 	max-width: 375px;
 	margin-left: auto;
 	margin-right: auto;
