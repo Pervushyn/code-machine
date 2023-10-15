@@ -257,7 +257,7 @@
 
 .mobile-menu-block {
   background-color: var(--backgroundc-color-brown);
-  width: 63%;
+  width: 59%;
   display: flex;
   flex-direction: column;
 }
