@@ -12,3 +12,24 @@
 @import url('./reviews.css');
 @import url('./footer.css');
 @import url('./modal.css');
+
+.wrapper {
+    background-image: url(../images/Graphic/_mob-Graphic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 767.98px) {
+    .wrapper {
+        background-image: url(../images/Graphic/_tab-Graphic.png);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .wrapper {
+        background-image: url(../images/Graphic/_desc-Graphic.png);
+    }
+}
