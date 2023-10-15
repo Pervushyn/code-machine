@@ -1,3 +1,7 @@
+.container {
+    margin: 0 auto;
+}
+
 .our-courses-wrap {
     display: flex;
     flex-direction: column;
@@ -68,17 +72,16 @@ li::before {
 }
 
 .our-courses-icon {
-    fill: (255, 255, 255, 0.40);
+    stroke: rgba(119, 119, 119, 1);
 }
 
-.our-courses-icon:hover {
-    fill: white;
-}
-
+.our-courses-icon:hover, 
 .our-courses-link:hover,
 .our-courses-link:focus {
+    stroke: var(--white);
     background-color: var(--brown, #BEA69E);;
 }
+
 
 .our-courses-subtitle {
     font-size: 28px;
@@ -131,9 +134,11 @@ li::before {
     .our-courses-card {
         padding: 32px;
     }
+
     .our-courses-number-block {
         margin-bottom: 46px;
     }
+
     .our-courses-link {
         top: 32px;
         right: 32px;
@@ -158,11 +163,13 @@ li::before {
         gap: 410px;
         margin-bottom: 50px;
     }
-    
     .our-courses-list .our-courses-card {
         width: calc((100% - 40px) / 3);
     }
     .our-courses-descr {
         width: 283px;
+    }
+    .our-courses-link {
+        margin-bottom: 32px;
     }
 }
