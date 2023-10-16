@@ -1,5 +1,5 @@
 .about-us {
-    min-width: 375px;
+    min-width: 320px;
     max-width: 375px;
     margin: 0 auto;
     width: 100%;
@@ -29,9 +29,10 @@
     gap: 20px;
 }
 
+
+
 .portfolio-photo {
     border-radius: 1000px;
-    padding-bottom: 20px;
 }
 
 .about-us-text {
@@ -87,6 +88,7 @@
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
+        line-height: 1.25;
         letter-spacing: -0.02em;
     }
 
@@ -106,24 +108,28 @@
     padding-bottom: 75px;
 }
     .about-us-inner {
-        display: inline;
+        flex-wrap: nowrap;
         gap: 50px;
     }
 
+    .about-picture-wrap {
+    max-width: 560px;
+}
+
     .portfolio-photo {
-        padding-right: 20px;
-        width: 488px;
-        height: 260px;
+        width: 560px;
+        height: 240px;
         object-position: center;
     }
 
     .about-us-list {
-        justify-content: flex-end;
         flex-wrap: nowrap;
-        gap: 20px;
+        justify-content: space-between;
+        gap: 40px;
+        max-width: 630px;
     }
 
-    .about-us-item {
-        max-width: 280px;
+    .about-us-text {
+        min-width: 276px;
     }
 }
