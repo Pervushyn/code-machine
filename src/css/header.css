@@ -8,14 +8,6 @@
     
   }
 }
-
-@media only screen and (max-width: 767.8px) and (min-resolution: 192dpi) {
-  .wrapper {
-    background-image: url(../images/graphic/_mob-graphic@2x.png);
-    
-  }
-}
-
 @media only screen and (min-width: 768px) {
   .wrapper {
     background-image: url(../images/graphic/_tab-graphic.png);
