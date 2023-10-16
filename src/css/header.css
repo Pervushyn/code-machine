@@ -1,7 +1,6 @@
 .wrapper {
   background-image: url('../images/graphic/_mob-graphick.png');
   background-repeat: repeat;
-  background-size: 100%;
 }
 @media only screen and (min-resolution: 192dpi) {
   .wrapper {
