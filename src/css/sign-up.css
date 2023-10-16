@@ -20,7 +20,7 @@ span.accent {
   line-height: 1.29; /* 128.571% */
   letter-spacing: -0.02em;
 
-  width: 295px;
+  /* width: 295px; */
   margin-bottom: 41px;
 }
 .form-input-sign-up {
@@ -107,11 +107,11 @@ span.accent {
   line-height: 1.33;
   text-decoration-line: underline;
 }
-.sign-up-wraper {
+/* .sign-up-wraper {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-}
+} */
 .sign-up-img-block {
   display: flex;
   align-items: flex-end;
@@ -201,5 +201,10 @@ span.accent {
 @media screen and (max-width: 1279.98px) {
   .sign-up-img-block {
     display: none;
+  }
+  .sign-up-wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
   }
 }
