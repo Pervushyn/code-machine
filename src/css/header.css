@@ -1,3 +1,20 @@
+.wrapper {
+  background-image: url(../images/Graphic/_mob-Graphic.png);
+  background-repeat: repeat;
+}
+
+@media only screen and (min-width: 767.98px) {
+  .wrapper {
+    background-image: url(../images/Graphic/_tab-Graphic.png);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .wrapper {
+    background-image: url(../images/Graphic/_desc-Graphic.png);
+  }
+}
+
 .header {
   padding: 20px 0;
 }
