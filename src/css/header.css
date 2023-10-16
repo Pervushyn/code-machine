@@ -1,6 +1,7 @@
 .wrapper {
   background-image: url(../images/graphic/_mob-graphic.png);
   background-repeat: repeat;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 @media only screen and (max-width: 767.8px) {
   .wrapper {
