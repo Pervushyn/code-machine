@@ -9,31 +9,31 @@
   background-image: url(../images/footer-graphic/_mob-footer-Graphic.png);
   background-repeat: repeat;
 }
-/* @media only screen and (min-resolution: 192dpi) {
+ @media only screen and (min-resolution: 192dpi) {
   .footer {
     background-image: url(../images/footer-graphic/_mob-footer-Graphic@2x.png);
   }
-} */
+} 
 @media only screen and (min-width: 768px) {
   .footer {
     background-image: url(../images/footer-graphic/_tab-footer-Graphic.png);
   }
 }
-/* @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
+ @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .footer {
     background-image: url(../images/footer-graphic/_tab-footer-Graphic@2x.png);
   }
-} */
+}
 @media only screen and (min-width: 1280px) {
   .footer {
     background-image: url(../images/footer-graphic/_desc-footer-Graphic.png);
   }
 }
-/* @media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+ @media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
   .footer {
     background-image: url(../images/footer-graphic/_desc-footer-Graphic@2x.png);
   }
-} */
+} 
 
 .icon-footer {
   fill: white;
