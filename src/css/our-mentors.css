@@ -1,6 +1,9 @@
 .mentors {
+    min-width: 320px;
+    max-width: 375px;
     padding-top: 40px;
     padding-bottom: 40px;
+    margin: 0 auto;
 }
 .mentor-title {
     margin-bottom: 40px;
@@ -20,34 +23,42 @@
     margin-right: auto;
 }
 .mentor-item {
+    display: flex;
+    flex-direction: column;
     max-width: 180px;
     justify-content: center;
+    align-items: center;
+}
+.img-team {
+    margin-bottom: 16px;
 }
 .mentor-item-title {
     font-size: 20px;
     font-weight: 500;
-    line-height: 0.8;
+    line-height: 1.2;
     min-width: 194px;
-    padding: 16px 0 4px;
+    margin-bottom: 4px;
 }
 .mentor-text {
+    display: block;
     color: var(--white-tr2);
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 0.8;
+    line-height: 1.33;
     letter-spacing: -0.02em;
-    min-width: 194px;
 }
 @media screen and (min-width:768px) {
     .mentors {
+        max-width: 768px;
         padding-top: 50px;
         padding-bottom: 50px;
     }
     .mentor-title {
+        font-size: 50px;
         font-size: 48px;
         font-weight: 500;
-        line-height: 0.9;
+        line-height: 1.12;
         letter-spacing: -0.04em;
     }
     .mentor-list {
@@ -62,10 +73,8 @@
     .mentor-item-title {
         margin-bottom: 4px;
         text-align: center;
-        font-size: 28px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 0.9;
+        font-size: 20px;
+        line-height: 1.2;
     }
     .mentor-text {
         text-align: center;
@@ -80,6 +89,7 @@
 .mentors {
     padding-top: 75px;
     padding-bottom: 75px;
+    max-width: 1280px;
 }
     .mentor-title {
         font-size: 48px;
@@ -98,7 +108,6 @@
         font-size: 28px;
         font-style: normal;
         font-weight: 500;
-        line-height: 0.9;
     }
     .mentor-text {
         text-align: center;
