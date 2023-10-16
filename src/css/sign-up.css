@@ -41,6 +41,9 @@ span.accent {
   border: 1px solid rgba(255, 255, 255, 0.5);
   color: var(--white);
 }
+.form-input-sign-up:not(:placeholder-shown):invalid {
+  border-color: red;
+}
 .form-input-sign-up:not(:last-child) {
   margin-bottom: 8px;
 }
@@ -64,6 +67,9 @@ span.accent {
 .textarea-sign-up:focus {
   border: 1px solid rgba(255, 255, 255, 0.5);
   color: var(--white);
+}
+.textarea-sign-up:not(:placeholder-shown):invalid {
+  border-color: red;
 }
 .sign-up-btn {
   display: flex;
