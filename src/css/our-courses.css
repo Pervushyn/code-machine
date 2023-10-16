@@ -1,5 +1,7 @@
 .container {
     margin: 0 auto;
+    min-width: 320px;
+    max-width: 375px;
 }
 
 .our-courses-wrap {
@@ -89,6 +91,7 @@
     line-height: 1.14;
     margin-bottom: 164px;
     max-width: 265px;
+    width: 100%;
 }
 
 .our-courses-descr {

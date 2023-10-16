@@ -1,4 +1,7 @@
 .mentors {
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 375px;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -8,7 +11,7 @@
     font-size: 28px;
     font-style: normal;
     font-weight: 500;
-    line-height: 114.286%;
+    line-height: 1.14;
     letter-spacing: -0.04em;
 }
 
@@ -23,16 +26,22 @@
 }
 
 .mentor-item {
+    display: flex;
+    flex-direction: column;
     max-width: 180px;
     justify-content: center;
 }
 
+.mentor-img {
+    display: block;
+    margin-bottom: 16px;
+}
 .mentor-item-title {
     font-size: 20px;
     font-weight: 500;
-    line-height: 120%;
+    line-height: 1.2;
     min-width: 194px;
-    margin: 16px 0 4px;
+    margin-bottom: 4px;
 }
 
 .mentor-text {
@@ -40,7 +49,7 @@
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 133.333%;
+    line-height: 1.33;
     letter-spacing: -0.02em;
     min-width: 194px;
 }
@@ -53,7 +62,7 @@
     .mentor-title {
         font-size: 48px;
         font-weight: 500;
-        line-height: 112.5%;
+        line-height: 1.12;
         letter-spacing: -0.04em;
     }
 
@@ -75,7 +84,7 @@
         font-size: 28px;
         font-style: normal;
         font-weight: 500;
-        line-height:114.286%;
+        line-height:1.14;
     }
 
     .mentor-text {
@@ -83,7 +92,7 @@
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
-        line-height: 128.571%;
+        line-height: 1.28;
         letter-spacing: -0.02em;
     }
 }
@@ -97,7 +106,7 @@
     .mentor-title {
         font-size: 48px;
         font-weight: 500;
-        line-height: 112.5%;
+        line-height: 1.12;
         letter-spacing: -0.04em;
     }
 
@@ -113,7 +122,7 @@
         font-size: 28px;
         font-style: normal;
         font-weight: 500;
-        line-height: 114.286%;
+        line-height: 1.14;
     }
 
     .mentor-text {
@@ -121,7 +130,7 @@
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
-        line-height: 128.571%;
+        line-height: 1.28;
         letter-spacing: -0.02em;
     }
 }
