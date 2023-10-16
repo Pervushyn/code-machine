@@ -1,4 +1,6 @@
-
+.reviews-section {
+    padding: 40px 0 80px;
+}
 
 .review-inner {
     width: 100%;
@@ -30,6 +32,9 @@
     .reviews-list {
         display: flex;
         gap: 20px;
+    }
+    .reviews-section {
+        padding: 75px 0 150px;
     }
 }
 
@@ -71,6 +76,9 @@
 @media screen and (min-width:768px) {
     .user-info {
         margin-bottom: 20px;
+    }
+    .reviews-section {
+        padding: 50px 0 100px;
     }
 }
 

@@ -1,18 +1,20 @@
 .hero-section {
     padding: 0px 20px 80px;
-    max-width: 375px;
+    min-width: 320px;
     margin: 0 auto;
-    min-width: 375px;
+    max-width: 375px;
     
 }
 .hero-inner {
   border-radius: 30px;
   padding: 40px 20px 0px;
   background-color: var(--background-color-dark);
+
+  
+    
 }
 
 .hero-title {
-  display: block;
   max-width: 295px;
   font-size: 40px;
   font-weight: 500;

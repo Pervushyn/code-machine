@@ -1,20 +1,35 @@
 .wrapper {
-  background-image: url(../images/Graphic/_mob-Graphic.png);
+  background-image: url(../images/graphic/_mob-graphick.png);
   background-repeat: repeat;
 }
-
-@media only screen and (min-width: 767.98px) {
+@media only screen and (min-resolution: 192dpi) {
   .wrapper {
-    background-image: url(../images/Graphic/_tab-Graphic.png);
+    background-image: url(../images/graphic/_mob-graphick@2x.png);
+    
+  }
+}
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    background-image: url(../images/graphic/_tab-graphick.png);
+    
+  }
+}
+@media only screen and (min-width: 768px) and (min-resolution: 192dpi)  {
+  .wrapper {
+    background-image: url(../images/graphic/_tab-graphick@2x.png);
   }
 }
 
 @media screen and (min-width: 1280px) {
   .wrapper {
-    background-image: url(../images/Graphic/_desc-Graphic.png);
+    background-image: url(../images/graphic/_desc-graphick.png);
   }
 }
-
+@media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+  .wrapper {
+    background-image: url(../images/graphic/_tab-graphick@2x.png);
+  } 
+}
 .header {
   padding: 20px 0;
 }
@@ -44,7 +59,7 @@
 
 /* Phone screen */
 .container-header {
-	min-width: 375px;
+	min-width: 320px;
 	max-width: 375px;
 	margin-left: auto;
 	margin-right: auto;
