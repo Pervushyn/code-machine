@@ -1,3 +1,8 @@
+.mentors {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 .mentor-title {
     margin-bottom: 40px;
     font-size: 28px;
@@ -19,6 +24,7 @@
 
 .mentor-item {
     max-width: 180px;
+    justify-content: center;
 }
 
 .mentor-item-title {
@@ -41,7 +47,10 @@
 
 
 @media screen and (min-width:768px) {
-
+    .mentors {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
     .mentor-title {
         font-size: 48px;
         font-weight: 500;
@@ -82,7 +91,10 @@
 
 
 @media screen and (min-width:1280px) {
-
+.mentors {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
     .mentor-title {
         font-size: 48px;
         font-weight: 500;
