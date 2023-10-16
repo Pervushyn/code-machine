@@ -1,33 +1,33 @@
 .wrapper {
-  background-image: url(../images/graphic/_mob-graphic.png);
+  background-image: url(../images/graphic/_mob-graphick.png);
   background-repeat: repeat;
 }
 @media only screen and (min-resolution: 192dpi) {
   .wrapper {
-    background-image: url(../images/graphic/_desc-graphic@2x.png);
+    background-image: url(../images/graphic/_mob-graphick@2x.png);
     
   }
 }
 @media only screen and (min-width: 768px) {
   .wrapper {
-    background-image: url(../images/graphic/_tab-graphic.png);
+    background-image: url(../images/graphic/_tab-graphick.png);
     
   }
 }
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi)  {
   .wrapper {
-    background-image: url(../images/graphic/_tab-graphic@2x.png);
+    background-image: url(../images/graphic/_tab-graphick@2x.png);
   }
 }
 
 @media screen and (min-width: 1280px) {
   .wrapper {
-    background-image: url(../images/graphic/_desc-graphic.png);
+    background-image: url(../images/graphic/_desc-graphick.png);
   }
 }
 @media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
   .wrapper {
-    background-image: url(../images/graphic/_desc-graphic@2x.png);
+    background-image: url(../images/graphic/_tab-graphick@2x.png);
   } 
 }
 .header {
