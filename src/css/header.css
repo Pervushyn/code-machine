@@ -16,7 +16,10 @@
   line-height: 1.5;
 }
 
-
+.mobile-menu-icon {
+  fill: var(--black);
+  stroke: var(--black);
+}
 
 .container-header {
   margin: 0px auto;
