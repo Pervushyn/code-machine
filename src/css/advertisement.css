@@ -3,8 +3,9 @@ body {
 }
 .advertisement {
   padding-top: 0;
-  min-width: 375px;
-
+  min-width: 320px;
+  max-width: 375px;
+  margin: 0 auto;
 }
 .container-advert {
   border-top: 1px solid var(--white-tr3);

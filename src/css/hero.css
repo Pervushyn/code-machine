@@ -2,7 +2,8 @@
     padding: 0px 20px 80px;
     max-width: 375px;
     margin: 0 auto;
-    min-width: 375px;
+    min-width: 320px;
+    margin: 0 auto;
     
 }
 .hero-inner {
