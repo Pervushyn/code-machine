@@ -8,17 +8,17 @@
   background-image: url(../images/footer-graphic/_mob-footer-Graphic.png);
   background-repeat: repeat;
 }
- @media only screen and (min-resolution: 192dpi) {
+@media only screen and (min-resolution: 192dpi) {
   .footer {
     background-image: url(../images/footer-graphic/_mob-footer-Graphic@2x.png);
   }
-} 
+}
 @media only screen and (min-width: 768px) {
   .footer {
     background-image: url(../images/footer-graphic/_tab-footer-Graphic.png);
   }
 }
- @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
+@media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .footer {
     background-image: url(../images/footer-graphic/_tab-footer-Graphic@2x.png);
   }
@@ -28,11 +28,11 @@
     background-image: url(../images/footer-graphic/_desc-footer-Graphic.png);
   }
 }
- @media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+@media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
   .footer {
     background-image: url(../images/footer-graphic/_desc-footer-Graphic@2x.png);
   }
-} 
+}
 
 .icon-footer {
   fill: white;
@@ -82,6 +82,13 @@
   color: rgba(255, 255, 255, 0.7);
   font-size: 16px;
   line-height: 1.25; /* 125% */
+}
+.footer-input:hover,
+.footer-input:focus {
+  color: black;
+}
+.footer-input:not(:placeholder-shown):invalid {
+  border: 1px solid red;
 }
 .footer-btn {
   min-width: 60px;
