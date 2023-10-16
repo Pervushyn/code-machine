@@ -1,17 +1,20 @@
 .wrapper {
-  background-image: url(../images/Graphic/_mob-Graphic.png);
+  background-image: url('./images/Graphic/_mob-Graphic.png');
+  background-image: url('./images/Graphic/_mob-Graphic@2x.png');
   background-repeat: repeat;
 }
 
 @media only screen and (min-width: 767.98px) {
   .wrapper {
-    background-image: url(../images/Graphic/_tab-Graphic.png);
+    background-image: url('./images/Graphic/_tab-Graphic.png');
+    background-image: url('./images/Graphic/_tab-Graphic@2x.png');
   }
 }
 
 @media screen and (min-width: 1280px) {
   .wrapper {
-    background-image: url(../images/Graphic/_desc-Graphic.png);
+    background-image: url('./images/Graphic/_desc-Graphic.png');
+    background-image: url('./images/Graphic/_desc-Graphic@2x.png');
   }
 }
 
