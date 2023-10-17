@@ -1,7 +1,5 @@
 .container {
   margin: auto;
-  min-width: 320px;
-  max-width: 375px;
 }
 
 .section-title {
@@ -115,11 +113,6 @@ span.accent {
   line-height: 1.33;
   text-decoration-line: underline;
 }
-/* .sign-up-wraper {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-} */
 .sign-up-img-block {
   display: flex;
   align-items: flex-end;
@@ -154,13 +147,6 @@ span.accent {
 
 /* Tablet screen */
 @media screen and (min-width: 768px) {
-  /* .section {
-    padding: 50px 0;
-  }
-  .container {
-    width: 768px;
-    padding: 0 32px 0 32px;
-  } */
   .section-title {
     font-size: 48px;
   }
@@ -202,13 +188,6 @@ span.accent {
     justify-content: space-between;
     align-items: flex-start;
   }
-  /* .section {
-    padding: 75px 0;
-  }
-  .container {
-    width: 1280px;
-    padding: 0 100px 0 100px;
-  } */
 }
 
 @media screen and (max-width: 1279.98px) {
