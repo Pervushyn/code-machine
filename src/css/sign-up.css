@@ -196,23 +196,23 @@ span.accent {
   }
 }
 /* Desktop screen 1280*/
-/* @media screen and (min-width: 1280px) {
-  .section {
+@media screen and (min-width: 1280px) {
+  .sign-up-wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  /* .section {
     padding: 75px 0;
   }
   .container {
     width: 1280px;
     padding: 0 100px 0 100px;
-  }
-} */
+  } */
+}
 
 @media screen and (max-width: 1279.98px) {
   .sign-up-img-block {
     display: none;
-  }
-  .sign-up-wraper {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
   }
 }
