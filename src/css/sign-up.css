@@ -2,7 +2,6 @@
   margin: 0 auto;
   min-width: 320px;
   max-width: 375px;
-  
 }
 
 .section-title {
@@ -194,20 +193,9 @@ span.accent {
     align-items: flex-start;
   }
 }
-.container {
-  max-width: 1280px;
-}
+
 @media screen and (max-width: 1279.98px) {
   .sign-up-img-block {
     display: none;
   }
 }
-
-
-
-
-
-
-
-
-
