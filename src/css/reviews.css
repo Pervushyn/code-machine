@@ -28,15 +28,6 @@
     margin-bottom: 50px;
 }
 
-@media screen and (min-width:1280px) {
-    .reviews-list {
-        display: flex;
-        gap: 20px;
-    }
-    .reviews-section {
-        padding: 75px 0 150px;
-    }
-}
 
 .review-item {
     border-radius: 12px;
@@ -152,3 +143,13 @@
     }
 } 
 
+
+@media screen and (min-width:1280px) {
+    .reviews-list {
+        display: flex;
+        gap: 20px;
+    }
+    .reviews-section {
+        padding: 75px 0 150px;
+    }
+}
