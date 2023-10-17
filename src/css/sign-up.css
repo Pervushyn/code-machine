@@ -189,7 +189,7 @@ span.accent {
     align-items: flex-start;
   }
 }
-
+ 
 @media screen and (max-width: 1279.98px) {
   .sign-up-img-block {
     display: none;
