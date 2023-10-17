@@ -1,7 +1,7 @@
 .wrapper {
+  
   background-image: url('../images/graphic/_mob-graphick.png');
-  background-repeat: repeat;
-  background-size: 100%;
+  
 }
 
 @media screen and (min-width: 320px) and (min-resolution: 192dpi) {
@@ -25,13 +25,44 @@
 
 @media screen and (min-width: 1280px) {
   .wrapper {
-    background-image: url('../images/graphic/_desc-graphick.png');
+    background-image: url('../images/graphic/_tab-graphick.png');
   }
 }
 @media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
   .wrapper {
-    background-image: url('../images/graphic/_desc-graphick@2x.png');
+    background-image: url('../images/graphic/_tab-graphick@2x.png');
   } 
+}
+@media screen and (min-width: 320px) {
+  .wrapper {
+      background-size: contain;
+      background-image: url('../images/header/mobile-header-1x.png');
+  }
+  @media screen and (min-width: 320px) and (min-resolution: 192dpi) {
+      .wrapper {
+          background-image: url('../images/header/mobile-header-2x.png');
+      }
+  }
+}
+@media screen and (min-width: 768px) {
+  .wrapper {
+      background-image: url('../images/header/tablet-header-1x.png');
+  }
+  @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+      .wrapper {
+          background-image: url('../images/header/tablet-header-2x.png');
+      }
+  }
+}
+@media screen and (min-width: 1280px) {
+  .wrapper {
+      background-image: url('../images/header/desc-header-1x.png');
+  }
+  @media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+      .wrapper {
+          background-image: url('../images/header/desc-header-2x.png');
+      }
+  }
 }
 .header {
   padding: 20px 0;
