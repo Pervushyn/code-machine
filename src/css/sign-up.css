@@ -150,6 +150,9 @@ span.accent {
   .section-title {
     font-size: 48px;
   }
+  .container {
+    max-width: 768px;
+  }
   .section-text {
     width: 480px;
     font-size: 16px;
@@ -187,6 +190,9 @@ span.accent {
     justify-content: space-between;
     align-items: flex-start;
   }
+}
+.container {
+  max-width: 1280px;
 }
 @media screen and (max-width: 1279.98px) {
   .sign-up-img-block {
