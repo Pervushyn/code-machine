@@ -4,6 +4,9 @@
     margin: 0 auto;
 }
 
+.container {
+    margin: 0 auto;
+}
 .about-us-inner {
     display: flex;
     flex-wrap: wrap;
