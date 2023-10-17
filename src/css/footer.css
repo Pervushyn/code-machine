@@ -1,6 +1,5 @@
 .container {
   margin: 0 auto;
-  
 }
 .footer {
   padding-top: 40px;
@@ -144,6 +143,7 @@
   .footer-link-block {
     gap: 25px;
     margin-right: 61px;
+    margin-bottom: 0;
   }
   .footer-input {
     width: 178px;
