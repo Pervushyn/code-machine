@@ -10,9 +10,7 @@
   border-radius: 30px;
   padding: 40px 20px 0px;
   background-color: var(--background-color-dark);
-
-  
-    
+ 
 }
 
 .hero-title {
@@ -35,7 +33,7 @@
   color: #fff;
   font-size: 14px;
   font-weight: 400;
-  line-height: 1.28;
+  line-height: 1.27;
   letter-spacing: 0.01em;
   text-decoration: none;
   margin-bottom: 40px;
