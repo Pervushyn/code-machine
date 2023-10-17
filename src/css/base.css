@@ -15,10 +15,15 @@ body {
 
 .section {
   padding: 40px 0;
+
+
 }
 
 .container {
   padding: 0 20px 0 20px;
+  min-width: 320px;
+  max-width: 375px;
+  margin: 0 auto;
 }
 
 span {
