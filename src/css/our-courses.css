@@ -1,6 +1,10 @@
-.container {
+
+.our-courses-inner {
+    min-width: 320px;
+    max-width: 375px;
     margin: 0 auto;
-}
+    width: 100%;
+
 
 .our-courses-wrap {
     display: flex;
@@ -100,6 +104,9 @@
 }
 
 @media screen and (min-width: 768px) {
+    .our-courses-inner {
+        max-width: 768px;
+    }
     .our-courses-wrap {
         display: flex;
         gap: 58px;
@@ -161,6 +168,9 @@
 }
 
 @media screen and (min-width: 1280px) {
+    .our-courses-inner {
+        max-width: 1200px;
+    }
     .our-courses-wrap {
         display: flex;
         gap: 410px;

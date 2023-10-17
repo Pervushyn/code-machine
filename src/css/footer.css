@@ -9,17 +9,17 @@
   background-image: url('../images/footer-graphic/_mob-footer-Graphic.png');
   background-repeat: repeat;
 }
- @media only screen and (min-resolution: 192dpi) {
+@media only screen and (min-resolution: 192dpi) {
   .footer {
     background-image: url('../images/footer-graphic/_mob-footer-Graphic@2x.png');
   }
-} 
+}
 @media only screen and (min-width: 768px) {
   .footer {
     background-image: url('../images/footer-graphic/_tab-footer-Graphic.png');
   }
 }
- @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
+@media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .footer {
     background-image: url('../images/footer-graphic/_tab-footer-Graphic@2x.png');
   }
@@ -29,11 +29,11 @@
     background-image: url('../images/footer-graphic/_desc-footer-Graphic.png');
   }
 }
- @media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+@media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
   .footer {
     background-image: url('../images/footer-graphic/_desc-footer-Graphic@2x.png');
   }
-} 
+}
 
 .icon-footer {
   fill: white;
@@ -84,6 +84,13 @@
   font-size: 16px;
   line-height: 1.25; /* 125% */
 }
+.footer-input:hover,
+.footer-input:focus {
+  color: black;
+}
+.footer-input:not(:placeholder-shown):invalid {
+  border: 1px solid red;
+}
 .footer-btn {
   min-width: 60px;
   margin-left: 8px;
@@ -109,6 +116,13 @@
 
 /* Tablet screen */
 @media screen and (min-width: 768px) {
+  .section {
+    padding: 50px 0;
+  }
+  .container {
+    max-width: 768px;
+    padding: 0 32px 0 32px;
+  }
   .footer-wraper {
     display: flex;
     align-items: flex-start;
@@ -130,7 +144,6 @@
   .footer-link-block {
     gap: 25px;
     margin-right: 61px;
-    margin-bottom: 0;
   }
   .footer-input {
     width: 178px;
@@ -139,6 +152,13 @@
 
 /* Desktop screen */
 @media screen and (min-width: 1280px) {
+  .section {
+    padding: 75px 0;
+  }
+  .container {
+    max-width: 1280px;
+    padding: 0 100px 0 100px;
+  }
   .logo-footer-block {
     margin-right: 285px;
   }
