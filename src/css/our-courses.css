@@ -167,8 +167,9 @@
 
 @media screen and (min-width: 1280px) {
     .our-courses-inner {
-        max-width: 1200px;
+        max-width: 1280px;
     }
+    
     .our-courses-wrap {
         display: flex;
         gap: 410px;
