@@ -2,7 +2,6 @@
     min-width: 320px;
     max-width: 375px;
     margin: 0 auto;
-    width: 100%;
 }
 
 .about-us-inner {
@@ -61,7 +60,9 @@
     .about-us-inner {
         gap: 50px;
     }
-
+.container {
+    margin: 0 auto;
+}
     .about-accent {
     margin-left: 9px;
 }

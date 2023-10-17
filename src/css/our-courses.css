@@ -1,15 +1,17 @@
+
 .our-courses-inner {
     min-width: 320px;
     max-width: 375px;
     margin: 0 auto;
     width: 100%;
-}
+
 
 .our-courses-wrap {
     display: flex;
     flex-direction: column;
     gap: 20px;
     margin-bottom: 40px;
+
 }
 
 .our-courses-title {
@@ -111,7 +113,9 @@
         flex-direction: row;
         margin-bottom: 50px;
     }
-
+.container {
+    max-width: 768px;
+}
     .our-courses-title {
         font-size: 48px;
         font-weight: 500;
@@ -171,6 +175,9 @@
         display: flex;
         gap: 410px;
         margin-bottom: 50px;
+    }
+    .container {
+        max-width: 1280px;
     }
     .our-courses-list .our-courses-card {
         width: calc((100% - 40px) / 3);
