@@ -1,11 +1,8 @@
-
 .our-courses-inner {
     min-width: 320px;
     max-width: 375px;
     margin: 0 auto;
     width: 100%;
-
-}
 .our-courses-wrap {
     display: flex;
     flex-direction: column;
