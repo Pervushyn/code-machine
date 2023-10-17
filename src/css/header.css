@@ -31,11 +31,6 @@
 }
 
 
-@media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
-  .wrapper {
-    background-image: url('../images/graphic/_tab-graphick@2x.png');
-  } 
-}
 
       
 .header {
