@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/code-machine/",
+    "build": "vite build --base=/html-css-97-Pervushyn/",
     "preview": "vite preview"
   },
   "devDependencies": {
