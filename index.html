@@ -13,8 +13,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
 
-    <script type="module" crossorigin src="/code-machine/assets/index-a8e3f15f.js"></script>
-    <link rel="stylesheet" href="/code-machine/assets/index-b7a7cc33.css">
+    <script type="module" crossorigin src="/code-machine/assets/index-3981ecd1.js"></script>
+    <link rel="stylesheet" href="/code-machine/assets/index-6300ca76.css">
   </head>
   <body>
     <div class="wrapper">
@@ -319,7 +319,9 @@
 <section class="section section-sign-up" id="sign-up">
   <div class="container sign-up-wraper">
     <div class="sign-up-block">
-      <h2 class="section-title" id="curses-team">Sign <span class="accent">up</span></h2>
+      <h2 class="section-title" id="curses-team">
+        Sign <span class="accent">up</span>
+      </h2>
       <p class="section-text">
         Please use the form below to contact us. Enter your name, email, and
         message and we'll get back to you shortly.
@@ -332,6 +334,9 @@
           name="user-name"
           id="user-name"
           placeholder="Enter your name"
+          minlength="2"
+          maxlength="20"
+          required
         />
         <label class="form-label-sign-up" for="user-email"></label>
         <input
@@ -340,6 +345,7 @@
           name="user-email"
           id="user-email"
           placeholder="Enter your email"
+          required
         />
         <label class="label-textarea-sign-up" for="user-comment"></label>
         <textarea
@@ -347,6 +353,9 @@
           name="user-comment"
           id="user-comment"
           placeholder="Message"
+          minlength="5"
+          maxlength="100"
+          required
         ></textarea>
 
         <button class="sign-up-btn" type="submit">Send</button>
