@@ -112,11 +112,11 @@
   line-height: 1.2; /* 24px */
 }
 .footer-btn:hover {
-  background-color: var(--white);
+  background-color: var(--white-tr);
   color: var(--black);
 }
 .footer-btn:focus {
-  background-color: var(--white);
+  background-color: var(--white-tr);
   color: var(--black);
 }
 

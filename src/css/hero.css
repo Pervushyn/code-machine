@@ -41,7 +41,7 @@
 
 .users-block {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   max-width: 253px;
   align-items: flex-start;
   margin-bottom: 31px;
