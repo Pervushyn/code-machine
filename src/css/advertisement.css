@@ -9,7 +9,7 @@ body {
   border-top: 1px solid var(--white-tr3);
   border-bottom: 1px solid var(--white-tr3);
   min-width: 320px;
-  max-width: 375px;
+ 
   margin: 0 auto; 
 }
 
@@ -59,10 +59,14 @@ body {
     transform: translateX(-100%);
   }
 }
-
+@media screen and (max-width:767.8) {
+  .container-advert {
+    max-width: 767.8px;
+  }
+}
 @media screen and (min-width: 768px) {
   .container-advert {
-    max-width: 768px;
+    max-width: 100%;
   }
   .marquee__line {
     padding: 24px;
@@ -72,7 +76,7 @@ body {
 }
 @media screen and (min-width: 1280px) {
   .container-advert {
-    max-width: 1280px;
+    max-width: 100%;
   }
   .marquee__line {
     font-size: 59px;
